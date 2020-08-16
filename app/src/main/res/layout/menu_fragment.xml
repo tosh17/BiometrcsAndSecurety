@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/menu_btn_root"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/menu_btn_biometric"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -30,7 +30,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu_btn_root" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/menu_btn_biometric2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu_btn_biometric" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/menu_btn_google_tink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,7 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/menu_btn_biometric2" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/menu_btn_shared_preferences"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
