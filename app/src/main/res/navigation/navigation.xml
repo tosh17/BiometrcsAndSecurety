@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/tinkFragment">
+    app:startDestination="@id/biometricFragment">
 
     <fragment
         android:id="@+id/checkRootFragment"
@@ -15,4 +15,9 @@
         android:name="ru.thstdio.biometrcsandsecurety.ui.tink.ui.TinkFragment"
         android:label="TinkFragment"
         tools:layout="@layout/tink_fragment"/>
+    <fragment
+        android:id="@+id/biometricFragment"
+        android:name="ru.thstdio.biometrcsandsecurety.ui.biometric.ui.BiometricFragment"
+        android:label="BiometricFragment"
+        tools:layout="@layout/biometric_fragment"/>
 </navigation>
