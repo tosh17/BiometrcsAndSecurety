@@ -1,4 +1,4 @@
-package ru.thstdio.biometrcsandsecurety.ui.sharepreferences
+package ru.thstdio.biometrcsandsecurety.ui.sharepreferences.presenter
 
 import android.content.Context
 import android.content.SharedPreferences

@@ -3,21 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/biometricFragment">
+    app:startDestination="@id/menuFragment">
 
     <fragment
         android:id="@+id/checkRootFragment"
         android:name="ru.thstdio.biometrcsandsecurety.ui.root.ui.CheckRootFragment"
         android:label="CheckRootFragment"
-        tools:layout="@layout/check_root_fragment"/>
+        tools:layout="@layout/check_root_fragment" />
     <fragment
         android:id="@+id/tinkFragment"
         android:name="ru.thstdio.biometrcsandsecurety.ui.tink.ui.TinkFragment"
         android:label="TinkFragment"
-        tools:layout="@layout/tink_fragment"/>
+        tools:layout="@layout/tink_fragment" />
     <fragment
         android:id="@+id/biometricFragment"
         android:name="ru.thstdio.biometrcsandsecurety.ui.biometric.ui.BiometricFragment"
         android:label="BiometricFragment"
-        tools:layout="@layout/biometric_fragment"/>
+        tools:layout="@layout/biometric_fragment" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="ru.thstdio.biometrcsandsecurety.ui.menu.ui.MenuFragment"
+        android:label="MenuFragment"
+        tools:layout="@layout/menu_fragment" />
+    <fragment
+        android:id="@+id/sharedPreferencesFragment"
+        android:name="ru.thstdio.biometrcsandsecurety.ui.sharepreferences.ui.SharedPreferencesFragment"
+        android:label="SharedPreferencesFragment"
+        tools:layout="@layout/shared_preferences_fragment" />
 </navigation>
