@@ -3,4 +3,5 @@
     <string name="auth_title">AuthTitle</string>
     <string name="auth_subtitle">AuthSubTitle</string>
     <string name="auth_description">AuthDesription</string>
+    <string name="secret_key_name">secret_pasword</string>
 </resources>

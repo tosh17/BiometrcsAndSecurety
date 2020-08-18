@@ -34,10 +34,10 @@ class TinkFragment : Fragment(), TinkView {
     }
 
     override fun setEncrypt(encrypt: String) {
-        mView.tink_encode_result.text = encrypt
+        mView.tink_encode_result.setText(encrypt)
     }
 
     override fun setDecrypter(decrypt: String) {
-        mView.tink_decode_result.text = decrypt
+        mView.tink_decode_result.setText(decrypt)
     }
 }

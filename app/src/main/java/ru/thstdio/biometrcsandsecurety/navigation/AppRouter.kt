@@ -14,7 +14,6 @@ class AppRouter {
         val screenId = when (screen) {
             AppScreen.CheckRootScreen -> R.id.checkRootFragment
             AppScreen.BiomentricScreen -> R.id.biometricFragment
-            AppScreen.Biomentric2Screen -> R.id.biometricFragment
             AppScreen.GoogleTinkScreen -> R.id.tinkFragment
             AppScreen.SharedPreferencesScreen -> R.id.sharedPreferencesFragment
         }

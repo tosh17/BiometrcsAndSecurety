@@ -28,7 +28,6 @@ class MenuFragment : Fragment() {
         view.run {
             menu_btn_root.setOnClickListener { presenter.clickRootBtn() }
             menu_btn_biometric.setOnClickListener { presenter.clickBiometricBtn() }
-            menu_btn_biometric2.setOnClickListener { presenter.clickBiometric2Btn() }
             menu_btn_google_tink.setOnClickListener { presenter.clickGoogleTinkBtn() }
             menu_btn_shared_preferences.setOnClickListener { presenter.clickSharedPreferencesBtn() }
         }
