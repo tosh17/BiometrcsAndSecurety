@@ -13,11 +13,7 @@ class MenuPresenter(private val router:AppRouter) : ViewModel() {
         router.open(AppScreen.BiomentricScreen)
     }
 
-    fun clickBiometric2Btn() {
-        router.open(AppScreen.Biomentric2Screen)
-    }
-
-    fun clickGoogleTinkBtn() {
+     fun clickGoogleTinkBtn() {
         router.open(AppScreen.GoogleTinkScreen)
     }
 
